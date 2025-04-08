@@ -4,7 +4,7 @@ from django.test import TestCase
 from taxi.models import Car, Driver, Manufacturer
 
 
-class CarSearchTest(TestCase):
+class ManufacturerSearchTest(TestCase):
     def setUp(self):
         self.user = Driver.objects.create_user(
             username="testuser",
